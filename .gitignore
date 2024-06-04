@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build artifacts (adjust based on your build tool)
+dist/  # For Vite's default output directory
+public/build/  # If using a custom build directory
+
+# Environment variables
+.env*  # Matches all environment variable files (e.g., .env, .env.local, .env.production)
+
+# IDE-specific files (replace with your IDE's specific files)
+.idea/
+.vscode/
+# Consider adding configurations for other popular IDEs (e.g., WebStorm, PyCharm)
+
+# Testing coverage files
+coverage/
+
+# Temporary file patterns (adjust as needed)
+*.log
+*.tmp
+*.sock.js
+
+# Optional: Ignore specific test frameworks or linters
+# jest/__snapshots__/  # Example for Jest snapshots
+# eslint/__output.txt  # Example for ESLint output file
+
+# Version control system metadata
+.git/
+.svn/
+.hg/
+
+# OS-specific temporary or cache files
+*.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Editor configuration files
+*.sublime-project
+*.sublime-workspace
+
+# Line endings conversion files
+*.swo
+
+# Build-related source maps (adjust based on your build tool)
+*.map  # Adjust if you don't need source maps in version control
+
+# Ignore any additional patterns specific to your project
+# Add them here based on your needs
